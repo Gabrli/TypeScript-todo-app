@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/index.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>TypeScript</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="main-todo-wrapper">
+        <header>
+          <h2>Todo list</h2>
+        </header>
+        <section class="input-container">
+          <input type="text" class="input-todo" placeholder="Task" value="" />
+          <button class="btn-add">+</button>
+        </section>
+        <section class="categories-wrapper">
+          <header>
+            <h3>Categories</h3>
+          </header>
+          <ul class="categories-box">
+          </ul>
+        </section>
+        <section class="todo-list">
+          <ul></ul>
+        </section>
+      </div>
+    </div>
+    <script type="module" src="./dist/app.js"></script>
+  </body>
+</html>
