@@ -10,4 +10,4 @@ This is my firts very simple app in TypeScript - (todo list app ).
 ---
   
 # Link to live website:
-gabrli.github.io/TypeScript-todo-app/
+https://gabrli.github.io/TypeScript-todo-app/
