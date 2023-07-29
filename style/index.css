@@ -56,6 +56,18 @@ body {
     position: relative;
    
 }
+.general{
+    color: #111;
+}
+.work{
+    color: royalblue;
+}
+.gym{
+    color: orange;
+}
+.hobby{
+    color: violet;
+}
 .categories-wrapper ul{
     width: 80%;
     border-bottom: 1px solid #111;
